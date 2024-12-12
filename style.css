@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap');
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    
+}
+
+
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+body{
+    line-height: 1.6;
+    color: #333;
+}
+
+
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px solid black;
+}
+
+.navbar-brand{
+    font-size: 42px;
+    font-weight:bolder;
+    padding-left: 40px;
+    font-family:"Dela Gothic One";
+    line: height 42px; ;
+}
+
+.navbar-menu{
+    display: flex;
+    gap: 32px;
+    font-size: 28px;
+    padding-right:40px ;
+    font-weight: 400;
+    line-height: 32px;
+    font-family:"Dela Gothic One" ;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: #333;
+}
+.image{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid grey;
+}
+.heading{
+    padding-top: 96px;
+    text-align: center;
+    font-family: "Dela Gothic One";
+    font-size: 100px;
+    line-height: 150px;
+    font-weight: 400;
+    align-items: center;
+    color: #421934;
+    letter-spacing: -2;
+
+    
+}
+.projects{
+    margin-top: 50px;
+    padding: 3vw;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr; 
+    gap: 3vw;
+}
+
+.box img{
+    height: 100;
+    width: 100%;
+    object-fit: cover;
+}
+.about{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 100px;
+    padding:2vw 4vw;  
+}
+.about-text{
+    width: 40%;
+}
+
+
+
+
