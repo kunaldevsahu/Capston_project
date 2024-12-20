@@ -3,6 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&family=Dela+Gothic+One&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&family=Dela+Gothic+One&family=Sen:wght@400..800&display=swap');
+
 *{
     margin: 0%;
     padding: 0%;
@@ -30,16 +31,16 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 0;
+    padding: 0.2vw 0;
     border-bottom: 1px solid black;
 }
 
 .navbar-brand{
-    font-size: 42px;
+    font-size: 2.8vw;
     font-weight:bolder;
-    padding-left: 40px;
+    padding-left: 2.66vw;
     font-family:"Dela Gothic One";
-    line-height:42px; 
+    line-height:2; 
     transition: transform 0.3s ease-in-out;
 }
 .navbar-brand:hover {
@@ -48,11 +49,11 @@ body{
 
 .navbar-menu{
     display: flex;
-    gap: 32px;
-    font-size: 28px;
-    padding-right:40px ;
+    gap: 2.13vw;
+    font-size: 2vw;
+    padding-right:2.66vw ;
     font-weight: 400;
-    line-height: 32px;
+    line-height: 2.13vw;
     font-family:"Dela Gothic One" ;
 }
 
@@ -76,12 +77,16 @@ body{
     width: 100vw;
     animation: fadeIn 2s ease-in-out;
 }
+.container{
+
+}
+
 .heading{
-    padding-top: 96px;
+    padding-top: 6.4vw;
     text-align: center;
     font-family: "Dela Gothic One";
-    font-size: 100px;
-    line-height: 150px;
+    font-size: 6.67vw;
+    line-height: 10vw;
     font-weight: 400;
     align-items: center;
     color: #421934;
@@ -100,13 +105,25 @@ body{
 }
 
 .projects{
-    margin-top: 50px;
+    margin-top: 3.33vw;
     padding: 3vw;
     width: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr; 
     gap: 3vw;
+}
+.project-name h2{
+    font-family: "Sen";
+    font-weight: 400;
+    font-size: 1.3vw;
+    color: #421934;
+}
+.project-name a{
+    font-family: "Sen";
+    font-weight: 300 ;
+    font-size: 1vw;
+    color: #421934;
 }
 
 .box img{
@@ -117,33 +134,36 @@ body{
 }
 .box img:hover {
     transform: scale(1.05);
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0.5vw 1vw rgba(0, 0, 0, 0.2);
 }
 .about{
     display: flex;
     justify-content: space-between;
     width: 100%;
-    height: 100px;
-    padding:2vw 4vw;  
+    height: 6.67vw;
+    padding:2vw 4vw; 
+    font-size: 1.86vw; 
 }
 .about-text{
     width: 40%;
     animation: fadeIn 1.5s ease-in-out;
+    font-size: 1.13vw;
+    font-family: "Sen";
     
 }
 .crafting{
-    padding-top: 200px;
-    padding-bottom: 96px;
+    padding-top: 13.3vw;
+    padding-bottom: 6.4vw;
     margin: 0 3vw;
 }
 .crafting h1{
     font-family: "Dela Gothic One";
-    font-size: 64px;
-    line-height: 68px;
+    font-size: 4.26vw;
+    line-height: 4.3vw;
     letter-spacing: -2;
     width: 60%;
     color: #421934;
-    padding-bottom: 96px;
+    padding-bottom: 6.4vw;
     transition: color 0.3s ease-in-out;
 }
 .crafting h1:hover {
@@ -165,17 +185,17 @@ body{
 .otp-container {
     display: flex;
     justify-content: center;
-    gap: 10px;
-    margin-bottom: 20px;
-    padding-top: 30px;
+    gap: 0.67;
+    margin-bottom: 13.2vw;
+    padding-top: 2vw;
 }
 .otp-container input {
-    width: 50px;
-    height: 50px;
+    width: 3.33vw;
+    height: 3.33vw;
     text-align: center;
-    font-size: 1.5rem;
+    font-size: 1.6vw;
     border: 1px solid #ddd;
-    border-radius: 8px;
+    border-radius: 0.53vw;
     background-color: #f2f2f2;
     transition: border-color 0.3s ease-in-out;
     transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out;
@@ -194,14 +214,14 @@ button {
     background-color: #CD3799;
     color: white;
     border: none;
-    border-radius: 8px;
-    padding: 10px 20px;
-    font-size: 1rem;
+    border-radius: 0.53vw;
+    padding: 0.67vw 1.34vw;
+    font-size: 1.06vw;
     cursor: pointer;
-    font-size: 15px;
-    line-height: 20px;
-    font-weight: 500px;
-    margin-bottom: 20px;
+    font-size: 1vw;
+    line-height: 1.34vw;
+    font-weight: 33.33vw;
+    margin-bottom: 1.3vw;
 }
 .inner{
     margin: auto;
@@ -210,17 +230,18 @@ button {
     justify-content: center;
     align-items: center;
     text-align: center;
-    gap: 8px;
-    width: 23vw;
-    margin-bottom: 200px;
-    margin-top: 200px;
+    gap: 0.43vw;
+    width: 1.53vw;
+    margin-bottom: 13.33vw;
+    margin-top: 13.33vw;
+    
 }
-.inner h{
+.inner h1{
     color: #421934;
-    font-weight: 400;
+    font-weight: 26.67vw;
     font-family: "Dela Gothic One";
-    font-size: 28px;
-    line-height: 34px;
+    font-size: 1.8vw;
+    line-height: 2.2vw;
 }
 a{
     text-decoration: none;
@@ -228,10 +249,11 @@ a{
 }
 .inner p{
     font-family:"sen" ;
+    font-size: 1.33vw;
 }
 .footer{
-    padding-top: 96px;
-    padding-bottom: 24px;
+    padding-top: 6.4vw;
+    padding-bottom: 1.6vw;
     display: flex;
     justify-content: space-between;
     padding-left:3vw ;
@@ -241,6 +263,7 @@ a{
 .footer h1{
     color: #4219349E;
     transition: color 0.3s ease-in-out;
+    font-size: 1.3vw;
 
 }
 .footer h1:hover {
@@ -258,9 +281,29 @@ a{
     transform: scale(1.05);
 }
 
-
-
-
+@media (max-width: 768px) {
+    .navbar-brand {
+        font-size: 24px;
+    }
+    .navbar-menu {
+        font-size: 16px;
+        gap: 10px;
+    }
+    .heading {
+        font-size: 60px;
+        line-height: 80px;
+    }
+    .crafting h1 {
+        font-size: 36px;
+    }
+    .projects {
+        grid-template-columns: 1fr;
+        gap: 10px;
+    }
+    .about-text {
+        width: 100%;
+    }
+}
 
 
 
